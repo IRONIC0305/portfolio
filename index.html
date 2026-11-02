@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swapnil Sarkar — Software Engineer</title>
+  <meta name="description" content="Swapnil Sarkar — software engineer in Sydney, NSW, building Drive Tracker and other full-stack products.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand">Swapnil Sarkar</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <p class="hero__label">Sydney, NSW · Software Engineer</p>
+      <h1 class="hero__heading">Swapnil Sarkar</h1>
+      <p class="hero__intro">
+        I build full-stack products end to end — from database design to a
+        shipped, installable app. Finishing a Master of IT in Artificial
+        Intelligence at Macquarie University, and looking for a graduate or
+        junior software engineering role in NSW.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="https://ironic0305.github.io/drive-tracker/" target="_blank" rel="noopener">See Drive Tracker</a>
+        <a class="btn btn--ghost" href="mailto:swapnilsarkar0305@gmail.com">Email me</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="section__title">About</h2>
+      <div class="about__grid">
+        <div class="about__block">
+          <h3>Education</h3>
+          <ul class="timeline">
+            <li class="timeline__item">
+              <span class="timeline__period">2024 – 2026</span>
+              <span class="timeline__title">Master of Information Technology (Artificial Intelligence)</span>
+              <span class="timeline__sub">Macquarie University</span>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__period">2020 – 2024</span>
+              <span class="timeline__title">BSc in Computer Science</span>
+              <span class="timeline__sub">BRAC University, Dhaka</span>
+            </li>
+          </ul>
+        </div>
+        <div class="about__block">
+          <h3>Experience</h3>
+          <ul class="timeline">
+            <li class="timeline__item">
+              <span class="timeline__period">Aug 2024 – present</span>
+              <span class="timeline__title">Key Holder / Tech Specialist</span>
+              <span class="timeline__sub">Officeworks, Belrose NSW</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="about__note">Full Australian working rights — open to graduate and junior software engineering roles across NSW.</p>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="section__title">Projects</h2>
+
+      <article class="project project--featured">
+        <p class="project__eyebrow">Live product</p>
+        <h3 class="project__title">Drive Tracker</h3>
+        <p class="project__desc">
+          A mobile-first web app for tracking drives with friends. Live GPS
+          trip tracking with a real-time speedometer, a map-first group
+          view with live location sharing over Supabase Realtime, a
+          leaderboard, a username-based friends system with requests, and
+          hazard reporting — installable as a PWA on iOS and Android.
+        </p>
+        <ul class="project__stack">
+          <li>HTML / CSS / JS</li>
+          <li>Leaflet</li>
+          <li>Supabase (Postgres, Auth, Realtime)</li>
+        </ul>
+        <div class="project__links">
+          <a class="btn btn--primary btn--sm" href="https://ironic0305.github.io/drive-tracker/" target="_blank" rel="noopener">Open live app</a>
+          <a class="btn btn--ghost btn--sm" href="https://github.com/IRONIC0305/drive-tracker" target="_blank" rel="noopener">View code</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <p class="project__eyebrow">In progress</p>
+        <h3 class="project__title">Drive Tracker — iOS</h3>
+        <p class="project__desc">
+          A native companion app for Drive Tracker, built with React Native
+          and Expo, sharing the same Supabase backend as the web app.
+        </p>
+        <ul class="project__stack">
+          <li>React Native</li>
+          <li>Expo</li>
+          <li>Supabase</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <div class="skills__grid">
+        <div class="skills__group">
+          <h3>Languages</h3>
+          <p>JavaScript, HTML, CSS, SQL</p>
+        </div>
+        <div class="skills__group">
+          <h3>Tools &amp; platforms</h3>
+          <p>Supabase, Git &amp; GitHub, React Native, Expo, Leaflet</p>
+        </div>
+        <div class="skills__group">
+          <h3>Currently studying</h3>
+          <p>Artificial Intelligence — Master of IT, Macquarie University</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section__title">Get in touch</h2>
+      <p class="contact__text">
+        Looking for a graduate or junior software engineering role in NSW —
+        happy to chat.
+      </p>
+      <div class="contact__links">
+        <a href="mailto:swapnilsarkar0305@gmail.com">swapnilsarkar0305@gmail.com</a>
+        <a href="https://www.linkedin.com/in/swapnil-sarkar-51358763/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/IRONIC0305" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Swapnil Sarkar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
